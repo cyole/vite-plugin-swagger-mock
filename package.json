@@ -1,7 +1,7 @@
 {
   "name": "@cyole/vite-plugin-swagger-mock",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "packageManager": "pnpm@8.5.1",
   "description": "",
   "author": "Cyole <hi@cyoo.cn>",
@@ -41,7 +41,7 @@
     "dev": "unbuild --stub",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
-    "release": "bumpp && npm publish -",
+    "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
